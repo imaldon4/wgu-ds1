@@ -8,4 +8,4 @@ def nfact(n):
         print(n)
     return fact
 
-print(nfact(10))
+print(nfact(6))
