@@ -5,6 +5,15 @@ class insertionSort{
         for (int i = 0; i < numbers.length; i++){
             System.out.println(numbers[i] + " ");
         }
+        System.out.println();
+
+        InsertionSort(numbers);
+
+        System.out.println("SORTED: ");
+        for (int i = 0; i < numbers.length; i++){
+            System.out.println(numbers[i]); 
+        }
+        System.out.println();
     }
 
 
