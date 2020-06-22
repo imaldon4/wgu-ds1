@@ -1,6 +1,8 @@
 # Tree recursion
 
 def scramble(r_letters, s_letters):
+
+
     """
        Output every possible combination of a word.
        Each recursive call moves a letter from
@@ -18,7 +20,7 @@ def scramble(r_letters, s_letters):
             scramble_letter = r_letters[i]
 
             # Remove letter to scramble from remaining letters list
-            remaining_letters = r_letters[:i] + r_letters[i+1:]
+            remaining_letters = r_letters[:i] + r_letters[i + 1:]
 
             # Scramble letter
             scramble(remaining_letters, s_letters + scramble_letter)
